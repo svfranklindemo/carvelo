@@ -11,8 +11,8 @@ import { dispatchCustomEvent } from '../../scripts/custom-events.js';
 import { syncFormDataLayer, DEFAULT_FORM_FIELD_MAP, attachLiveFormSync, submitToWebhook, fetchButtonDataSheet } from '../../scripts/form-data-layer.js';
 import { normalizeAemPath } from '../../scripts/scripts.js';
 
-const LOAN_APPLICATION_FORM_WIZARD_TITLE = 'Home Loan Application Form';
-const LOAN_APPLICATION_FORM_WIZARD_NAME = 'home-loan-application';
+const LOAN_APPLICATION_FORM_WIZARD_TITLE = 'Car Loan Application Form';
+const LOAN_APPLICATION_FORM_WIZARD_NAME = 'car-loan-application';
 function getNestedProperty(obj, path) {
   if (!obj || !path) return undefined;
   return path.split('.').reduce((current, key) => current?.[key], obj);
